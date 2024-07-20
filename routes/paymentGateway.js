@@ -1,7 +1,6 @@
 import express, { response } from 'express'
 import { Cashfree } from 'cashfree-pg';
 import crypto from 'crypto';
-import Axios from 'axios';
 import { } from 'dotenv/config';
 
 const router = express.Router();
